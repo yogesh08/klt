@@ -842,9 +842,6 @@ b i:last-child {
     background: transparent;  /* optional: just make scrollbar invisible */
 } 
 
-
-
-
 /* footer
 ==================================================*/
 
@@ -1201,6 +1198,7 @@ textarea:focus {
         font-size: 30px;
         line-height: 30px;
     }
+<<<<<<< HEAD
     .portfolio_container{
     width:100%;
     float: left;
@@ -1225,4 +1223,6 @@ textarea:focus {
     background: transparent;  /* optional: just make scrollbar invisible */
 } 
 
+=======
+>>>>>>> 76352bbf97b1725eda838a3232c36c44fea596dd
 }
