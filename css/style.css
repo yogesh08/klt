@@ -208,7 +208,7 @@ h5 {
 .box-header.is-fixed {
     position: fixed;
     top: -80px;
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(255, 255, 255, 0.75);
     -webkit-transition: -webkit-transform 0.3s;
     transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
@@ -818,29 +818,38 @@ b i:last-child {
     padding-bottom: 0 !important;
     padding-top: 55px;
 }
+
 .portfolio_container{
     width:100%;
     float: left;
-    height: 850px !important;
-    overflow: scroll;
-    overflow-x: hidden;
+    height: 900px !important;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
 }
 .portfolio_container::-webkit-scrollbar { 
-    width: -1px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-} 
+    width:1px;
+    background: transparent; 
+
+}
 .portfolio_container::-moz-scrollbar { 
-    width: -1px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-} 
+    width:1px;
+    background: transparent;  
+}
 .portfolio_container::-ms-scrollbar { 
-    width: -1px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
+    width:1px;
+    background: transparent; 
 } 
-.portfolio_container::-o-scrollbar { 
-    width: -1px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-} 
+/* .portfolio_container::-o-scrollbar { 
+    display: none; 
+} */
+
+/* for every slider on project page
+==================================================*/
+.margineTop{
+   margin-top: 100px;
+}
 
 /* footer
 ==================================================*/
@@ -848,7 +857,8 @@ b i:last-child {
 footer {
     padding: 30px 0;
     text-align: center;
-    background: #f5f5f5
+    background: #f5f5f5;
+    
 }
 
 .copyright {
@@ -968,7 +978,13 @@ footer img {
     color: #888;
 }
 
-
+ .imgMargin{
+         width: 45%;
+         float: left;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-right:30px;
+    }
 /* Services page
 ==================================================*/
 
@@ -1147,6 +1163,13 @@ textarea:focus {
     .col-md-6 h3 {
         margin-top: 30px;
     }
+    .imgMargin{
+         width: 45%;
+         float: left;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-right:30px;
+    }
 }
 
 @media only screen and (max-width: 670px) {
@@ -1173,6 +1196,13 @@ textarea:focus {
     .portfolio .categories-grid .categories ul li {
         float: none;
     }
+    .imgMargin{
+         width: 40%;
+         float: left;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-right:30px;
+    }
 }
 
 @media only screen and (max-width: 520px) {
@@ -1184,6 +1214,13 @@ textarea:focus {
     }
     .main-container {
         padding: 50px 0;
+    }
+    .imgMargin{
+         width: 100%;
+         float: left;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        margin-right: 0;
     }
 }
 
@@ -1198,31 +1235,10 @@ textarea:focus {
         font-size: 30px;
         line-height: 30px;
     }
-<<<<<<< HEAD
-    .portfolio_container{
-    width:100%;
-    float: left;
-    height: 850px !important;
-    overflow: scroll;
-    overflow-x: hidden;
-}
-.portfolio_container::-webkit-scrollbar { 
-    width: -1px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-} 
-.portfolio_container::-moz-scrollbar { 
-    width: -1px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-} 
-.portfolio_container::-ms-scrollbar { 
-    width: -1px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-} 
-.portfolio_container::-o-scrollbar { 
-    width: -1px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-} 
-
-=======
->>>>>>> 76352bbf97b1725eda838a3232c36c44fea596dd
+    .imgMargin{
+        margin-left: 0px;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    
 }
