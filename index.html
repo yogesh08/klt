@@ -26,6 +26,12 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+   <!--  <style type="text/css">
+    	.carousel-caption {
+    						top: 40;
+   							bottom: auto;
+							}
+    </style> -->
   </head>
   
   <body>
@@ -45,10 +51,10 @@
       <!-- box header -->
       <header class="box-header">
         <div class="box-logo hidden-xs">
-          <a href="index.html"><img src="img/logo1.png" width="59" height="50" alt="Logo"></a>
+          <a href="index.html"><img src="img/clogo.png" width="80" height="40" alt="Logo"></a>
         </div>
         <div class="box-logo visible-xs">
-          <a href="index.html"><img src="img/logo1.png" width="59"  height="50"  alt="Logo"></a>
+          <a href="index.html"><img src="img/clogo.png" width="80"  height="40"  alt="Logo"></a>
         </div>
         <!-- box-nav -->
         <a class="box-primary-nav-trigger" href="#0">
@@ -80,8 +86,7 @@
         </ul>
       </nav>
       <!-- end nav -->
-      
-      <!-- box-intro -->
+       <!-- box-intro -->
       <section class="box-intro">
         <div class="table-cell">
           <h1 class="box-headline letters rotate-2">
@@ -93,7 +98,6 @@
           </h1>
           <h5 class="hidden-xs">Interior Designers & Consultants</h5>
         </div>
-        
         <div class="table-cell">
           <h5 class="box-headline letters rotate-2">
             <span class="box-words-wrapper">
@@ -102,10 +106,8 @@
               <!-- <b>graphic.</b> -->
             </span>
           </h5>
-          
-          <h6 class="visible-xs">Interior Designers & Consultants</h5>
+          <h6 class="visible-xs">Interior Designers & Consultants</h6>
         </div>
-        
          <a href="#portfolio">
           <div class="mouse">
             <div class="scroll"></div>
@@ -140,8 +142,17 @@
                 <div class="no-padding portfolio_container clearfix" id="portMain">
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6  offices">
-                        <a href="officeprojects.html#slider" class="portfolio_item">
-                            <img src="img/portfolio/cargo/EMP_6012.jpg" alt="image" class="img-responsive" />
+                        <a href="officeprojects.html" class="portfolio_item">
+                            <picture>
+                              <img style="width:100%; height: auto;" 
+                              sizes="(max-width: 1400px) 100vw, 1400px"
+                              srcset="
+                              img/portfolio/cargo/EMP_6012_lpxokh_c_scale,w_200.jpg 200w,
+                              img/portfolio/cargo/EMP_6012_lpxokh_c_scale,w_939.jpg 939w,
+                              img/portfolio/cargo/EMP_6012_lpxokh_c_scale,w_1400.jpg 1400w"
+                              src="img/portfolio/cargo/EMP_6012_lpxokh_c_scale,w_1400.jpg"
+                              alt="">
+                            </picture>
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
@@ -156,12 +167,21 @@
 
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 residence">
-                        <a href="residenceprojects.html#slider" class="portfolio_item">
-                            <img src="img/portfolio/HiteshVora/EMP_4962.jpg" alt="image" class="img-responsive" />
+                        <a href="residenceprojects.html" class="portfolio_item">   
+                            <picture>
+                            <img style="width:100%; height: auto;" 
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            img/portfolio/ruparel/EMP_2949_yimjzv_c_scale,w_200.jpg 200w,
+                            img/portfolio/ruparel/EMP_2949_yimjzv_c_scale,w_938.jpg 938w,
+                            img/portfolio/ruparel/EMP_2949_yimjzv_c_scale,w_1400.jpg 1400w"
+                            src="img/portfolio/ruparel/EMP_2949_yimjzv_c_scale,w_1400.jpg"
+                            alt="">
+                            </picture>
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Hitesh Vora</span>
+                                        <span>Raju Ruparel </span>
                                         <em>Residence</em>
                                     </div>
                                 </div>
@@ -172,8 +192,17 @@
 
                     <!-- single work -->
                     <div class="col-md-4 col-sm-12 showRooms">
-                        <a href="showroomprojects.html#slider3" class="portfolio_item">
-                            <img src="img/portfolio/Geetanjli/DPP_0009.jpg" alt="image" class="img-responsive" />
+                        <a href="showroomprojects.html" class="portfolio_item">
+                         <picture>
+                          <img  style="width:100%; height: auto;" 
+                          sizes="(max-width: 1400px) 100vw, 1400px"
+                          srcset="
+                          img/portfolio/Geetanjli/DPP_0009_m0umkb_c_scale,w_200.jpg 200w,
+                          img/portfolio/Geetanjli/DPP_0009_m0umkb_c_scale,w_939.jpg 939w,
+                          img/portfolio/Geetanjli/DPP_0009_m0umkb_c_scale,w_1400.jpg 1400w"
+                          src="img/portfolio/Geetanjli/DPP_0009_m0umkb_c_scale,w_1400.jpg"
+                          alt="">
+                          </picture> 
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
@@ -189,7 +218,16 @@
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 clinics">
                         <a href="hospitalprojects.html" class="portfolio_item">
-                            <img src="img/portfolio/DR._Tandon/b12.jpg" alt="image" class="img-responsive" />
+                            <picture>
+                              <img style="width:100%; height: auto;" 
+                              sizes="(max-width: 1400px) 100vw, 1400px"
+                              srcset="
+                              img/portfolio/DR._Tandon/b12_j8wqlr_c_scale,w_200.jpg 200w,
+                              img/portfolio/DR._Tandon/b12_j8wqlr_c_scale,w_935.jpg 935w,
+                              img/portfolio/DR._Tandon/b12_j8wqlr_c_scale,w_1400.jpg 1400w"
+                              src="img/portfolio/DR._Tandon/b12_j8wqlr_c_scale,w_1400.jpg"
+                              alt="">
+                              </picture>
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
@@ -201,12 +239,19 @@
                         </a>
                     </div>
                     <!-- end single work -->
-
-                   
                     <!-- single work -->
                     <div class="col-md-4 col-sm-12 restaurants">
                         <a href="restaurantsprojects.html" class="portfolio_item">
-                            <img src="img/portfolio/littleitaly/IMG_8411.jpg" alt="image" class="img-responsive" />
+                            <picture>
+                              <img style="width:100%; height: auto;"  class="img-responsive" 
+                              sizes="(max-width: 1400px) 100vw, 1400px"
+                              srcset="
+                              img/portfolio/littleitaly/IMG_8699_k7tbv1_c_scale,w_200.jpg 200w,
+                              img/portfolio/littleitaly/IMG_8699_k7tbv1_c_scale,w_943.jpg 943w,
+                              img/portfolio/littleitaly/IMG_8699_k7tbv1_c_scale,w_1400.jpg 1400w"
+                              src="img/portfolio/littleitaly/IMG_8699_k7tbv1_c_scale,w_1400.jpg"
+                              alt="">
+                              </picture>
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
@@ -220,8 +265,17 @@
                     <!-- end single work -->
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 offices">
-                        <a href="officeprojects.html#slider2" class="portfolio_item">
-                            <img src="img/portfolio/ggt/IMP_4195.jpg" alt="image" class="img-responsive" />
+                        <a href="officeprojects.html" class="portfolio_item">
+                            <picture>
+                              <img style="width:100%; height: auto;" 
+                              sizes="(max-width: 1400px) 100vw, 1400px"
+                              srcset="
+                              img/portfolio/ggt/IMP_4195_wcbdfv_c_scale,w_200.jpg 200w,
+                              img/portfolio/ggt/IMP_4195_wcbdfv_c_scale,w_936.jpg 936w,
+                              img/portfolio/ggt/IMP_4195_wcbdfv_c_scale,w_1400.jpg 1400w"
+                              src="img/portfolio/ggt/IMP_4195_wcbdfv_c_scale,w_1400.jpg"
+                              alt="">
+                            </picture>
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
@@ -237,7 +291,17 @@
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 restaurants">
                         <a href="restaurantsprojects.html" class="portfolio_item">
-                            <img src="img/portfolio/carvan/DSC_7437.jpg" alt="image" class="img-responsive" />
+                              <picture>
+                              <img style="width:100%; height:auto;" class="img-responsive" 
+                              sizes="(max-width: 1000px) 100vw, 1000px"
+                              srcset="
+                              img/portfolio/carvan/DSC_7437_wgsy5w_c_scale,w_50.jpg 50w,
+                              img/portfolio/carvan/DSC_7437_wgsy5w_c_scale,w_674.jpg 674w,
+                              img/portfolio/carvan/DSC_7437_wgsy5w_c_scale,w_1000.jpg 1000w"
+                              src="img/portfolio/carvan/DSC_7437_wgsy5w_c_scale,w_1000.jpg"
+                              alt="">
+                              </picture>
+
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
@@ -252,8 +316,17 @@
 
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6  contracting">
-                        <a href="single-project.html" class="portfolio_item">
-                            <img src="img/portfolio/icici/IMG-20170226-WA0027.jpg" alt="image" class="img-responsive" />
+                        <a href="bankprojects.html" class="portfolio_item">
+                            <picture>
+                              <img style="width:100%; height: auto;" 
+                              sizes="(max-width: 1400px) 100vw, 1400px"
+                              srcset="
+                              img/portfolio/icici/IMG-20170226-WA0027_xjwheo_c_scale,w_200.jpg 200w,
+                              img/portfolio/icici/IMG-20170226-WA0027_xjwheo_c_scale,w_940.jpg 940w,
+                              img/portfolio/icici/IMG-20170226-WA0027_xjwheo_c_scale,w_1400.jpg 1400w"
+                              src="img/portfolio/icici/IMG-20170226-WA0027_xjwheo_c_scale,w_1400.jpg"
+                              alt="">
+                              </picture>
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
@@ -268,12 +341,21 @@
 
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 residence">
-                        <a href="residenceprojects.html#slider2" class="portfolio_item">
-                            <img src="img/portfolio/ajitabh/EMP_9028.jpg" alt="image" class="img-responsive" />
+                        <a href="residenceprojects.html" class="portfolio_item">
+                            <picture>
+                            <img style="width:100%; height: auto;" 
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            img/portfolio/amitagrawal/DPP_0001_vjvoj7_c_scale,w_200.jpg 200w,
+                            img/portfolio/amitagrawal/DPP_0001_vjvoj7_c_scale,w_940.jpg 940w,
+                            img/portfolio/amitagrawal/DPP_0001_vjvoj7_c_scale,w_1400.jpg 1400w"
+                            src="img/portfolio/amitagrawal/DPP_0001_vjvoj7_c_scale,w_1400.jpg"
+                            alt="">
+                          </picture>
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Ajitabh Bharti</span>
+                                        <span>Amit Agrawal</span>
                                         <em>Residence</em>
                                     </div>
                                 </div>
@@ -284,8 +366,18 @@
                     
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 offices">
-                      <a href="officeprojects.html#slider3" class="portfolio_item">
-                        <img src="img/portfolio/jwt/DPP_0001.jpg" alt="image" class="img-responsive" />
+                      <a href="officeprojects.html" class="portfolio_item">
+                        <picture>
+                          <img  style="width:100%; height: auto;"  
+                          sizes="(max-width: 1400px) 100vw, 1400px"
+                          srcset="
+                          img/portfolio/jwt/DPP_0001_ppc6ry_c_scale,w_200.jpg 200w,
+                          img/portfolio/jwt/DPP_0001_ppc6ry_c_scale,w_935.jpg 935w,
+                          img/portfolio/jwt/DPP_0001_ppc6ry_c_scale,w_1400.jpg 1400w"
+                          src="img/portfolio/jwt/DPP_0001_ppc6ry_c_scale,w_1400.jpg"
+                          alt="">
+                        </picture>
+
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
@@ -300,7 +392,17 @@
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 showRooms">
                       <a href="showroomprojects.html" class="portfolio_item">
-                        <img src="img/portfolio/CLAIRVOYANCE/DSC_0002.jpg" alt="image" class="img-responsive" />
+                        <picture>
+                            <img style="width:100%; height: auto;" 
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            img/portfolio/CLAIRVOYANCE/DSC_0001_luimw4_c_scale,w_200.jpg 200w,
+                            img/portfolio/CLAIRVOYANCE/DSC_0001_luimw4_c_scale,w_939.jpg 939w,
+                            img/portfolio/CLAIRVOYANCE/DSC_0001_luimw4_c_scale,w_1400.jpg 1400w"
+                            src="img/portfolio/CLAIRVOYANCE/DSC_0001_luimw4_c_scale,w_1400.jpg"
+                            alt="">
+                            </picture>
+
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
@@ -312,15 +414,23 @@
                       </a>
                     </div>
                     <!-- end single work -->  
-                    
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 residence">
-                        <a href="residenceprojects.html#slider3" class="portfolio_item">
-                            <img src="img/portfolio/ajitabh/EMP_9084.jpg" alt="image" class="img-responsive" />
+                        <a href="residenceprojects.html" class="portfolio_item">
+                           <picture>
+                            <img style="width:100%; height: auto;" 
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            img/portfolio/pasannadivekar/EMP_9634_ehnzbd_c_scale,w_200.jpg 200w,
+                            img/portfolio/pasannadivekar/EMP_9634_ehnzbd_c_scale,w_938.jpg 938w,
+                            img/portfolio/pasannadivekar/EMP_9634_ehnzbd_c_scale,w_1400.jpg 1400w"
+                            src="img/portfolio/pasannadivekar/EMP_9634_ehnzbd_c_scale,w_1400.jpg"
+                            alt="">
+                            </picture>
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                         <span>Ajitabh Bharti</span>
+                                         <span>Prasana Divekar</span>
                                         <em>Residence</em>
                                     </div>
                                 </div>
@@ -331,7 +441,16 @@
                       <!-- single work -->
                     <div class="col-md-4 col-sm-6 restaurants">
                       <a href="restaurantsprojects.html" class="portfolio_item">
-                        <img src="img/portfolio/Saffron/007_3866.jpg" alt="image" class="img-responsive" />
+                        <picture>
+                          <img style="width:100%; height: auto;" class="img-responsive" 
+                          sizes="(max-width: 1400px) 100vw, 1400px"
+                          srcset="
+                          img/portfolio/Saffron/007_3866_fm4d47_c_scale,w_200.jpg 200w,
+                          img/portfolio/Saffron/007_3866_fm4d47_c_scale,w_941.jpg 941w,
+                          img/portfolio/Saffron/007_3866_fm4d47_c_scale,w_1400.jpg 1400w"
+                          src="img/portfolio/Saffron/007_3866_fm4d47_c_scale,w_1400.jpg"
+                          alt="">
+                          </picture>
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
@@ -346,8 +465,17 @@
                   
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 contracting">
-                        <a href="single-project.html" class="portfolio_item">
-                            <img src="img/portfolio/indusind/IMG-20170226-WA0022.jpg" alt="image" class="img-responsive" />
+                        <a href="bankprojects.html" class="portfolio_item">
+                            <picture>
+                              <img style="width:100%; height: auto;" 
+                              sizes="(max-width: 1400px) 100vw, 1400px"
+                              srcset="
+                              img/portfolio/indusind/IMG-20170226-WA0022_axovly_c_scale,w_200.jpg 200w,
+                              img/portfolio/indusind/IMG-20170226-WA0022_axovly_c_scale,w_939.jpg 939w,
+                              img/portfolio/indusind/IMG-20170226-WA0022_axovly_c_scale,w_1400.jpg 1400w"
+                              src="img/portfolio/indusind/IMG-20170226-WA0022_axovly_c_scale,w_1400.jpg"
+                              alt="">
+                              </picture>
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
@@ -362,7 +490,17 @@
                       <!-- single work -->
                     <div class="col-md-4 col-sm-6 clinics">
                       <a href="hospitalprojects.html" class="portfolio_item">
-                        <img src="img/portfolio/Swati_clinic/DPP_0021.jpg" alt="image" class="img-responsive" />
+                        <picture>
+                          <img style="width:100%; height: auto;"  
+                          sizes="(max-width: 1400px) 100vw, 1400px"
+                          srcset="
+                          img/portfolio/Swati_clinic/DPP_0021_setfar_c_scale,w_200.jpg 200w,
+                          img/portfolio/Swati_clinic/DPP_0021_setfar_c_scale,w_939.jpg 939w,
+                          img/portfolio/Swati_clinic/DPP_0021_setfar_c_scale,w_1400.jpg 1400w"
+                          src="img/portfolio/Swati_clinic/DPP_0021_setfar_c_scale,w_1400.jpg"
+                          alt="">
+                        </picture>
+
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
@@ -377,12 +515,21 @@
                     
                       <!-- single work -->
                     <div class="col-md-4 col-sm-6 contracting">
-                      <a href="single-project.html" class="portfolio_item">
-                        <img src="img/portfolio/indusind/IMG-20170226-WA0022.jpg" alt="image" class="img-responsive" />
+                      <a href="hotelsparesort.html" class="portfolio_item">
+                         <picture>
+                        <img  style="width: 100%; height: auto;" 
+                        sizes="(max-width: 1000px) 100vw, 1000px"
+                        srcset="
+                        img/portfolio/hotels-sanga/IMG_4939_hw5k9y_c_scale,w_50.jpg 50w,
+                        img/portfolio/hotels-sanga/IMG_4939_hw5k9y_c_scale,w_672.jpg 672w,
+                        img/portfolio/hotels-sanga/IMG_4939_hw5k9y_c_scale,w_1000.jpg 1000w"
+                        src="img/portfolio/hotels-sanga/IMG_4939_hw5k9y_c_scale,w_1000.jpg"
+                        alt="">
+                        </picture>
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
-                                    <span>IndusInd Bank</span>
+                                    <span>Hilltak Hotel</span>
                                     <em>Turnkey Contracting</em>
                                 </div>
                             </div>
@@ -392,8 +539,17 @@
                     <!-- end single work -->            
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 offices">
-                      <a href="officeprojects.html#slider4" class="portfolio_item">
-                        <img src="img/portfolio/RMC/IMG_9680.jpg" alt="image" class="img-responsive" />
+                      <a href="officeprojects.html" class="portfolio_item">
+                        <picture>
+                          <img  style="width:100%; height: auto;" class="img-responsive"
+                          sizes="(max-width: 1400px) 100vw, 1400px"
+                          srcset="
+                          img/portfolio/RMC/IMG_9680_euoth0_c_scale,w_200.jpg 200w,
+                          img/portfolio/RMC/IMG_9680_euoth0_c_scale,w_936.jpg 936w,
+                          img/portfolio/RMC/IMG_9680_euoth0_c_scale,w_1400.jpg 1400w"
+                          src="img/portfolio/RMC/IMG_9680_euoth0_c_scale,w_1400.jpg"
+                          alt="">
+                          </picture>
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
@@ -408,12 +564,21 @@
                     
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 residence">
-                        <a href="residenceprojects.html#slider4" class="portfolio_item">
-                            <img src="img/portfolio/HiteshVora/EMP_5241.jpg" alt="image" class="img-responsive" />
+                        <a href="residenceprojects.html" class="portfolio_item">
+                            <picture>
+                            <img  style="width:100%; height: auto;"
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            img/portfolio/pramodk/_0073663_odwipd_c_scale,w_200.jpg 200w,
+                            img/portfolio/pramodk/_0073663_odwipd_c_scale,w_944.jpg 944w,
+                            img/portfolio/pramodk/_0073663_odwipd_c_scale,w_1400.jpg 1400w"
+                            src="img/portfolio/pramodk/_0073663_odwipd_c_scale,w_1400.jpg"
+                            alt="">
+                            </picture>
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>Hitesh Vora</span>
+                                        <span>Pramod Khandelwal </span>
                                         <em>Residence</em>
                                     </div>
                                 </div>
@@ -424,11 +589,30 @@
                       <!-- single work -->
                     <div class="col-md-4 col-sm-6 restaurants">
                       <a href="restaurantsprojects.html" class="portfolio_item">
-                        <img src="img/portfolio/hotels-sanga/IMG_4939.jpg" alt="image" class="img-responsive" />
+                       <!-- <picture>
+                            <img  style="width: 100%; height: auto;" class="img-responsive" 
+                            sizes="(max-width: 1000px) 100vw, 1000px"
+                            srcset="
+                            img/portfolio/Kadi-patta/_RPP3247_odfpid_c_scale,w_50.jpg 50w,
+                            img/portfolio/Kadi-patta/_RPP3247_odfpid_c_scale,w_657.jpg 657w,
+                            img/portfolio/Kadi-patta/_RPP3247_odfpid_c_scale,w_1000.jpg 1000w"
+                            src="img/portfolio/Kadi-patta/_RPP3247_odfpid_c_scale,w_1000.jpg"
+                            alt="">
+                            </picture> -->
+                            <picture>
+							<img style="width: 100%; height: auto;"
+							sizes="(max-width: 1400px) 100vw, 1400px"
+							srcset="
+							 img/portfolio/MAMALOCA/IMG-20160220-WA0023_dd9foh_c_scale,w_200.jpg 200w,
+							 img/portfolio/MAMALOCA/IMG-20160220-WA0023_dd9foh_c_scale,w_932.jpg 932w,
+							 img/portfolio/MAMALOCA/IMG-20160220-WA0023_dd9foh_c_scale,w_1400.jpg 1400w"
+							src=" img/portfolio/MAMALOCA/IMG-20160220-WA0023_dd9foh_c_scale,w_1400.jpg"
+							alt="">
+							</picture>
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
-                                    <span>Hiltek Hotel</span>
+                                    <span>Mamaloca  Hotel</span>
                                     <em>Restaurants & Hotels</em>
                                 </div>
                             </div>
@@ -439,8 +623,17 @@
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 clinics">
                       <a href="hospitalprojects.html" class="portfolio_item">
-                        <img src="img/portfolio/Bandari-belfer_clininc/EMP_9513.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
+                        <picture>
+                          <img style="width:100%; height: auto;" 
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            img/portfolio/Bandari-belfer_clininc/EMP_9513_fqwo63_c_scale,w_200.jpg 200w,
+                            img/portfolio/Bandari-belfer_clininc/EMP_9513_fqwo63_c_scale,w_939.jpg 939w,
+                            img/portfolio/Bandari-belfer_clininc/EMP_9513_fqwo63_c_scale,w_1400.jpg 1400w"
+                            src="img/portfolio/Bandari-belfer_clininc/EMP_9513_fqwo63_c_scale,w_1400.jpg"
+                            alt="">
+                          </picture>
+                          <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
                                     <span>Bandari Belfer Clinin</span>
@@ -455,11 +648,20 @@
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 showRooms">
                         <a href="showroomprojects.html" class="portfolio_item">
-                            <img src="img/portfolio/LIVINGGEMS/EMP_8113.jpg" alt="image" class="img-responsive" />
+                            <picture>
+                            <img style="width:100%; height: auto;" 
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            img/portfolio/LIVINGGEMS/EMP_8113_xxszah_c_scale,w_200.jpg 200w,
+                            img/portfolio/LIVINGGEMS/EMP_8113_xxszah_c_scale,w_942.jpg 942w,
+                            img/portfolio/LIVINGGEMS/EMP_8113_xxszah_c_scale,w_1400.jpg 1400w"
+                            src="img/portfolio/LIVINGGEMS/EMP_8113_xxszah_c_scale,w_1400.jpg"
+                            alt="">
+                            </picture>
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
-                                        <span>LIVING GEMS</span>
+                                        <span>Living Gems</span>
                                         <em>Showrooms</em>
                                     </div>
                                 </div>
@@ -469,12 +671,21 @@
                     <!-- end single work -->
                       <!-- single work -->
                     <div class="col-md-4 col-sm-6 contracting">
-                      <a href="single-project.html" class="portfolio_item">
-                        <img src="img/portfolio/icici/IMG-20170226-WA0027.jpg" alt="image" class="img-responsive" />
+                      <a href="bungalows.html" class="portfolio_item">
+                    <picture>
+                            <img style="width: 100%; height: auto;" class="img-responsive" 
+                            sizes="(max-width: 1000px) 100vw, 1000px"
+                            srcset="
+                            img/portfolio/hotels-sanga/IMG_4880_bfnopw_c_scale,w_50.jpg 50w,
+                            img/portfolio/hotels-sanga/IMG_4880_bfnopw_c_scale,w_675.jpg 675w,
+                            img/portfolio/hotels-sanga/IMG_4880_bfnopw_c_scale,w_1000.jpg 1000w"
+                            src="img/portfolio/hotels-sanga/IMG_4880_bfnopw_c_scale,w_1000.jpg"
+                            alt="">
+                            </picture>
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
-                                    <span>ICICI Bank</span>
+                                    <span>Bungalows</span>
                                     <em>Turnkey Contracting</em>
                                 </div>
                             </div>
@@ -485,12 +696,22 @@
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 clinics">
                       <a href="hospitalprojects.html" class="portfolio_item">
-                        <img src="img/portfolio/jayant-shiv_clinic/HKP_0020-copy.jpg" alt="image" class="img-responsive" />
+                        <picture>
+                          <img class="img-responsive" 
+                          sizes="(max-width: 1400px) 100vw, 1400px"
+                          srcset="
+                          img/portfolio/jayant-shiv_clinic/HKP_0020-copy_dg4kwo_c_scale,w_200.jpg 200w,
+                          img/portfolio/jayant-shiv_clinic/HKP_0020-copy_dg4kwo_c_scale,w_969.jpg 969w,
+                          img/portfolio/jayant-shiv_clinic/HKP_0020-copy_dg4kwo_c_scale,w_1400.jpg 1400w"
+                          src="img/portfolio/jayant-shiv_clinic/HKP_0020-copy_dg4kwo_c_scale,w_1400.jpg"
+                          alt="">
+                        </picture>
+
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
                                     <span>Dr Jayant  Shiv Clinic</span>
-                                    <em>Restaurants & Hotels</em>
+                                    <em>Clinics</em>
                                 </div>
                             </div>
                         </div>
@@ -501,7 +722,16 @@
                     <!-- single work -->
                     <div class="col-md-4 col-sm-6 showRooms">
                         <a href="showroomprojects.html" class="portfolio_item">
-                            <img src="img/portfolio/Ankushtilesstore/DPP_0006.jpg" alt="image" class="img-responsive" />
+                            <picture>
+                            <img style=" width: 100%; height: auto;"
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            img/portfolio/Ankushtilesstore/DPP_0006_rheols_c_scale,w_200.jpg 200w,
+                            img/portfolio/Ankushtilesstore/DPP_0006_rheols_c_scale,w_937.jpg 937w,
+                            img/portfolio/Ankushtilesstore/DPP_0006_rheols_c_scale,w_1400.jpg 1400w"
+                            src="img/portfolio/Ankushtilesstore/DPP_0006_rheols_c_scale,w_1400.jpg"
+                            alt="">
+                            </picture>
                             <div class="portfolio_item_hover">
                                 <div class="portfolio-border clearfix">
                                     <div class="item_info">
