@@ -61,12 +61,12 @@ $(window).load(function () {
         }
     });
     //<script type="text/javascript">
-      $(function() {
+      /*$(function() {
       $('a[href*=#]').on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
          });
-      });
+      });*/
    // </script>
    $( document ).ready(function() {
 
