@@ -1214,8 +1214,8 @@ textarea:focus {
 }*/
 .peopleCarouselImg img {
   width: auto;
-  height: 700px !important;
-  max-height: 700px ;
+  height: 650px !important;
+  max-height: 650px ;
 }
 
 /* Responsive media queries
