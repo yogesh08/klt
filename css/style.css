@@ -1,10 +1,3 @@
-/*
-* Box Theme
-* Created by : Ahmed Eissa
-* website : www.ahmedessa.net
-* behance : https://www.behance.net/3essa
-*/
-
 
 /* Table of Content
 ==================================================
@@ -456,29 +449,29 @@ b i:last-child {
 
 /* mouse effect */
 
-.mouse {
-    position: absolute;
-    width: 22px;
-    height: 42px;
-    bottom: 90px;	
-    left: 50%;
-    margin-left: -12px;
-    border-radius: 15px;
-    border: 2px solid black;
-    -webkit-animation: intro 1s;
-    animation: intro 1s;
-}
+/* .mouse { */
+    /* position: absolute; */
+    /* width: 22px; */
+    /* height: 42px; */
+    /* bottom: 90px;	 */
+    /* left: 50%; */
+    /* margin-left: -12px; */
+    /* border-radius: 15px; */
+    /* border: 2px solid black; */
+    /* -webkit-animation: intro 1s; */
+    /* animation: intro 1s; */
+/* } */
 
-.scroll {
-    display: block;
-    width: 3px;
-    height: 3px;
-    margin: 6px auto;
-    border-radius: 4px;
-    background: black;
-    -webkit-animation: finger 2s infinite;
-    animation: finger 2s infinite;
-}
+/* .scroll { */
+    /* display: block; */
+    /* width: 3px; */
+    /* height: 3px; */
+    /* margin: 6px auto; */
+    /* border-radius: 4px; */
+    /* background: black; */
+    /* -webkit-animation: finger 2s infinite; */
+    /* animation: finger 2s infinite; */
+/* } */
 
 @-webkit-keyframes intro {
     0% {
@@ -938,28 +931,30 @@ footer img {
 .top-bar1 {
     background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/priyablueind/MAM_7330-32C1_fwy3z8_c_scale,w_1400.jpg);
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/priyablueind/MAM_7330-32C1_fwy3z8_c_scale,w_1400.jpg);
+	background-repeat: no-repeat;
+    background-size:cover;
 }
 .top-bar2 {
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/littleitaly/IMG_8587_dtysb5_c_scale,w_940.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/littleitaly/IMG_8587_dtysb5_c_scale,w_940.jpg);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/h5.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/h5.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
 .top-bar3{
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Bandari-belfer_clininc/EMP_9468_jo82ly_c_scale,w_937.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Bandari-belfer_clininc/EMP_9468_jo82ly_c_scale,w_937.jpg);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/h4.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/h4.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
 .top-bar4 {
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/pashupatipaints/DPP_0047_cn01up_c_scale,w_941.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/pashupatipaints/DPP_0047_cn01up_c_scale,w_941.jpg);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/h3.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/h3.jpg);
     background-repeat: no-repeat;
     background-size:cover;    
 }
 .top-bar5 {
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/pramodk/0073949_dm4djq_c_scale,w_940.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/pramodk/0073949_dm4djq_c_scale,w_940.jpg);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/h1.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/h1.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -971,8 +966,8 @@ footer img {
     background-size:cover;
 }
 .top-bar7 {
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/VISHNUAGARWAL/2_py5l7l_c_scale,w_947.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/VISHNUAGARWAL/2_py5l7l_c_scale,w_947.jpg);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/h6.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/h6.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -992,7 +987,7 @@ footer img {
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #999;
+    color: #E59866;
     line-height: 50px;
 }
 
