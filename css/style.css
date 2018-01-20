@@ -920,8 +920,8 @@ footer img {
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/priyablueind/MAM_7330-32C1_fwy3z8_c_scale,w_1025.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/priyablueind/MAM_7330-32C1_fwy3z8_c_scale,w_1025.jpg);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/officepics/_ASP2824_edit.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/officepics/_ASP2824_edit.jpg);
     background-size:cover;
     background-attachment: fixed;
     background-position: center center;
@@ -931,7 +931,7 @@ footer img {
 .top-bar1 {
     background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/priyablueind/MAM_7330-32C1_fwy3z8_c_scale,w_1400.jpg);
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/priyablueind/MAM_7330-32C1_fwy3z8_c_scale,w_1400.jpg);
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size:cover;
 }
 .top-bar2 {
